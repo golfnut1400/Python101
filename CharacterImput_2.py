@@ -1,6 +1,7 @@
 """Exercise 1 Character Input
 
-Create a program that asks the user to enter their name and their age. Print out a message addressed to them that tells them the year that they will turn 100 years old.
+Create a program that asks the user to enter their name and their age.
+Print out a message addressed to them that tells them the year that they will turn 100 years old.
 
 Extras:
 
@@ -10,6 +11,7 @@ Print out that many copies of the previous message on separate lines. (Hint: the
 
 
 from datetime import date
+
 currentYear = date.today().year
 print("========== Welcome to Century Calculator ==========")
 print()

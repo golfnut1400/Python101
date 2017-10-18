@@ -52,6 +52,8 @@ elif num % 2 == 0:
 else:
     print(num, "is an odd number")
 
+
+# this is another way to solve
 if num % check == 0:
     print(num, "divides evenly by", check)
 else:
