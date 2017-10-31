@@ -6,7 +6,9 @@
 
 num = int(input("Please choose a number to divide: "))
 
-listRange = list(range(1,num+1))
+listRange = list(range(1,num + 1))  # sets the range of the list
+
+#listRange = list(range(0,1000))
 
 divisorList = []
 
@@ -14,7 +16,7 @@ for number in listRange:
     if num % number == 0:
         divisorList.append(number)
 
-print(divisorList)
+print("These numbers can be divided envenly in another number", divisorList)
 
 # another example
 
@@ -25,6 +27,9 @@ while True:
         break
     except ValueError:
      print("Oops! That was no valid number. Try again...")
+
+
+# another example
 
 out=[]
 #using list comprehension

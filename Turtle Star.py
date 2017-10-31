@@ -5,7 +5,7 @@ wn = turtle.Screen()
 
 
 
-play.color('red','blue')
+play.color('red','purple')
 play.begin_fill()
 play.speed(10)
 while True:

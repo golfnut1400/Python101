@@ -10,8 +10,8 @@ Add on to the previous program by asking the user for another number and printin
 Print out that many copies of the previous message on separate lines. (Hint: the string "\n is the same as pressing the ENTER button)"""
 
 
-name = raw_input("What is your name: ")
-age = int(raw_input("How old are you: "))
+name = input("What is your name?: ")
+age = int(input("How old are you?: "))
 year = str((2014 - age)+100)
 print(name + " will be 100 years old in the year " + year)
 

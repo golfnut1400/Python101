@@ -6,4 +6,6 @@ def isDivisible(x, y):
 
     return result  # returns the value back to the calling statement below
 
-print(isDivisible(10, 5))   # calls the isDivisibe() function and passes 2 arguments
+print(isDivisible(10, 5))   # calls the isDivisibe() function and passes 2 arguments. Returns True
+
+print(isDivisible(100, 15)) # returns False

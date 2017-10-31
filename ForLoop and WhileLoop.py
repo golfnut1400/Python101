@@ -10,7 +10,7 @@ def sumTo(aBound):
 
 print("The for loop returns theSum of:"),sumTo(4)
 
-print(sumTo(1000))
+# print(sumTo(1000))
 
 # ----------------------------------------
 # while loop
@@ -30,4 +30,4 @@ def sumTo(aBound):  # 4 is equal to the aBound
 
 print("The while loop returns theSum of:"),sumTo(4)
 
-print(sumTo(1000))
+# print(sumTo(1000))

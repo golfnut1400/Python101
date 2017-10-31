@@ -24,9 +24,9 @@ tess = turtle.Turtle()
 side_color = tess.color()
 fill_color = tess.fillcolor()
 
-number_of_sides = int(input("Enter the number of sides of the shape: "))
-side_color = str(input("Enter side color: "))
-fill_color = str(input("Enter fill color: "))
+number_of_sides = int(raw_input("Enter the number of sides of the shape: "))
+side_color = str(raw_input("Enter side color: "))
+fill_color = str(raw_input("Enter fill color: "))
 
 for i in range(number_of_sides):
     for s in side_color:

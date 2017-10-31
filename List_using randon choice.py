@@ -1,3 +1,7 @@
+
+
+# use of random, not in
+
 import random
 
 
@@ -11,4 +15,4 @@ while len(choices) < 4:
     selection = random.choice(all_data)
     if selection not in choices:
         choices.append(selection)
-print choices
+print (choices)

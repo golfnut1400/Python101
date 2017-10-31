@@ -29,9 +29,11 @@ list1 = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 list2 = []
 
 for element in list1:
-    if element < 22:
+    if element < 5:
         new = element
 
         list2.append(new)
-        print new
+        print new  #prints out the elements where the value is < than 5
+        print list2 # prints out the running elements as it goes through the loop
+        print (list1[0:5])
 
